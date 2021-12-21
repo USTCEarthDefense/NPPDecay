@@ -1,0 +1,23 @@
+loaded data retweet
+num Types = 3
+data_name = retweet, sub = train, num_seqs = 20000, min_len = 50, max_len =264, mean_len =108
+data_name = retweet, sub = dev, num_seqs = 2000, min_len = 50, max_len =264, mean_len =107
+data_name = retweet, sub = test, num_seqs = 2000, min_len = 50, max_len =264, mean_len =109
+
+loaded data finance
+num Types = 2
+data_name = finance, sub = train, num_seqs = 90, min_len = 3319, max_len =3319, mean_len =3319
+data_name = finance, sub = dev, num_seqs = 10, min_len = 3319, max_len =3319, mean_len =3319
+data_name = finance, sub = test, num_seqs = 100, min_len = 829, max_len =829, mean_len =829
+
+loaded data so
+num Types = 22
+data_name = so, sub = train, num_seqs = 4777, min_len = 41, max_len =720, mean_len =72
+data_name = so, sub = dev, num_seqs = 530, min_len = 41, max_len =301, mean_len =71
+data_name = so, sub = test, num_seqs = 1326, min_len = 41, max_len =736, mean_len =73
+
+loaded data mimic
+num Types = 75
+data_name = mimic, sub = train, num_seqs = 527, min_len = 2, max_len =24, mean_len =3
+data_name = mimic, sub = dev, num_seqs = 58, min_len = 2, max_len =33, mean_len =4
+data_name = mimic, sub = test, num_seqs = 65, min_len = 2, max_len =11, mean_len =3
